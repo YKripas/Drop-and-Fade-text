@@ -1,7 +1,9 @@
 /*DEfine the presentation for span elements inside the sentence continer*/
-
-sentence span {
-    color: #444;
+body{
+  background-color: black;
+}
+.sentence span {
+    color: white;
     white-space: nowrap;
     font-size: 200%;
     font-weight: normal;
@@ -36,4 +38,13 @@ sentence span {
 .words span:nth-child(6){
   animation-delay: 15s;
   color: #e7d7fc;
+}
+/*Animate the description*/
+@keyframes animateWords {
+  from{
+    opacity: 1; animation-timing-function: ease-in; top: 0;
+  }
+  to{
+    opacity: 0; top: 5em;
+  }
 }
