@@ -1,0 +1,14 @@
+/*DEfine the presentation for span elements inside the sentence continer*/
+
+sentence span {
+    color: #444;
+    white-space: nowrap;
+    font-size: 200%;
+    font-weight: normal;
+}
+/*properties for words class span*/
+.words span{
+  position: relative;
+  opacity: 0;
+  animation: animateWords 5s ease-in-out infinite;
+}
